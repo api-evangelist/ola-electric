@@ -1,8 +1,24 @@
 aid: ola-electric
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ola-electric.png
 name: Ola Electric
-description: 'Ola Electric is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: transportation. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Ola Electric is an Indian electric-vehicle manufacturer building electric scooters (the S1
+  family), electric motorcycles (the Roadster line), and home energy solutions (Ola Shakti battery systems),
+  all designed and produced in India around its in-house 4680 Bharat Cell and ferrite-motor technology.
+  Backed by SoftBank Vision Fund, the company operates a nationwide Hypercharger fast-charging network and
+  Hyperservice center footprint across India. As a consumer EV and energy hardware manufacturer, Ola Electric
+  publishes no public developer API, developer portal, SDK, or API reference; this profile is maintained
+  in the API Evangelist network as a company identity record rather than an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/ola-electric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Transportation
+- Electric Vehicles
+- Automotive
+- Energy
+- Manufacturing
+- India
+- Mobility
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/ola-electric-domain-security.yml
+- type: Website
+  url: https://www.olaelectric.com
+  name: Ola Electric Website
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
